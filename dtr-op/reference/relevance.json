@@ -1,0 +1,630 @@
+{
+  "alfworld": {
+    "corpus_ceiling": {
+      "frac_ge_50_pct": 100.0,
+      "frac_ge_80_pct": 100.0,
+      "frac_no_match_pct": 0.0,
+      "mean_best_coverage_pct": 100.0,
+      "n": 120
+    },
+    "family_lexical": {
+      "1": {
+        "coverage_pct": 95.2,
+        "disagreement_pct": 4.3,
+        "frac_ge_80_pct": 89.2,
+        "ms_per_query": 0.586,
+        "n": 120,
+        "n_cases": 2,
+        "n_conflicting": 0.26,
+        "precision_pct": 87.1,
+        "purity_pct": 100.0
+      },
+      "12": {
+        "coverage_pct": 99.3,
+        "disagreement_pct": 9.2,
+        "frac_ge_80_pct": 100.0,
+        "ms_per_query": 0.792,
+        "n": 120,
+        "n_cases": 13,
+        "n_conflicting": 1.69,
+        "precision_pct": 87.0,
+        "purity_pct": 100.0
+      },
+      "3": {
+        "coverage_pct": 96.8,
+        "disagreement_pct": 6.0,
+        "frac_ge_80_pct": 93.3,
+        "ms_per_query": 0.647,
+        "n": 120,
+        "n_cases": 4,
+        "n_conflicting": 0.53,
+        "precision_pct": 86.7,
+        "purity_pct": 100.0
+      },
+      "5": {
+        "coverage_pct": 98.9,
+        "disagreement_pct": 7.5,
+        "frac_ge_80_pct": 97.5,
+        "ms_per_query": 0.681,
+        "n": 120,
+        "n_cases": 6,
+        "n_conflicting": 0.8,
+        "precision_pct": 86.7,
+        "purity_pct": 100.0
+      },
+      "7": {
+        "coverage_pct": 98.9,
+        "disagreement_pct": 8.0,
+        "frac_ge_80_pct": 97.5,
+        "ms_per_query": 0.757,
+        "n": 120,
+        "n_cases": 8,
+        "n_conflicting": 1.07,
+        "precision_pct": 86.6,
+        "purity_pct": 100.0
+      }
+    },
+    "hybrid": {
+      "1": {
+        "coverage_pct": 97.1,
+        "disagreement_pct": 9.1,
+        "frac_ge_80_pct": 95.0,
+        "ms_per_query": 3.46,
+        "n": 120,
+        "n_cases": 2,
+        "n_conflicting": 0.19,
+        "precision_pct": 90.4,
+        "purity_pct": 100.0
+      },
+      "12": {
+        "coverage_pct": 99.3,
+        "disagreement_pct": 9.1,
+        "frac_ge_80_pct": 100.0,
+        "ms_per_query": 3.758,
+        "n": 120,
+        "n_cases": 13,
+        "n_conflicting": 1.69,
+        "precision_pct": 87.0,
+        "purity_pct": 100.0
+      },
+      "3": {
+        "coverage_pct": 98.6,
+        "disagreement_pct": 7.6,
+        "frac_ge_80_pct": 97.5,
+        "ms_per_query": 3.425,
+        "n": 120,
+        "n_cases": 4,
+        "n_conflicting": 0.47,
+        "precision_pct": 88.3,
+        "purity_pct": 100.0
+      },
+      "5": {
+        "coverage_pct": 98.9,
+        "disagreement_pct": 7.9,
+        "frac_ge_80_pct": 97.5,
+        "ms_per_query": 3.555,
+        "n": 120,
+        "n_cases": 6,
+        "n_conflicting": 0.77,
+        "precision_pct": 87.2,
+        "purity_pct": 100.0
+      },
+      "7": {
+        "coverage_pct": 98.9,
+        "disagreement_pct": 8.3,
+        "frac_ge_80_pct": 97.5,
+        "ms_per_query": 3.576,
+        "n": 120,
+        "n_cases": 8,
+        "n_conflicting": 1.02,
+        "precision_pct": 87.2,
+        "purity_pct": 100.0
+      }
+    },
+    "lexical": {
+      "1": {
+        "coverage_pct": 90.4,
+        "disagreement_pct": 4.0,
+        "frac_ge_80_pct": 83.3,
+        "ms_per_query": 3.285,
+        "n": 120,
+        "n_cases": 2,
+        "n_conflicting": 0.38,
+        "precision_pct": 81.2,
+        "purity_pct": 62.5
+      },
+      "12": {
+        "coverage_pct": 99.9,
+        "disagreement_pct": 20.0,
+        "frac_ge_80_pct": 100.0,
+        "ms_per_query": 3.395,
+        "n": 120,
+        "n_cases": 13,
+        "n_conflicting": 2.83,
+        "precision_pct": 78.3,
+        "purity_pct": 56.5
+      },
+      "3": {
+        "coverage_pct": 93.8,
+        "disagreement_pct": 13.0,
+        "frac_ge_80_pct": 89.2,
+        "ms_per_query": 3.108,
+        "n": 120,
+        "n_cases": 4,
+        "n_conflicting": 0.88,
+        "precision_pct": 77.9,
+        "purity_pct": 63.3
+      },
+      "5": {
+        "coverage_pct": 97.6,
+        "disagreement_pct": 17.5,
+        "frac_ge_80_pct": 98.3,
+        "ms_per_query": 3.519,
+        "n": 120,
+        "n_cases": 6,
+        "n_conflicting": 1.23,
+        "precision_pct": 79.6,
+        "purity_pct": 61.4
+      },
+      "7": {
+        "coverage_pct": 98.8,
+        "disagreement_pct": 18.9,
+        "frac_ge_80_pct": 98.3,
+        "ms_per_query": 3.161,
+        "n": 120,
+        "n_cases": 8,
+        "n_conflicting": 1.69,
+        "precision_pct": 78.9,
+        "purity_pct": 59.2
+      }
+    },
+    "structural": {
+      "1": {
+        "coverage_pct": 96.5,
+        "disagreement_pct": 11.3,
+        "frac_ge_80_pct": 93.3,
+        "ms_per_query": 9.503,
+        "n": 120,
+        "n_cases": 2,
+        "n_conflicting": 0.14,
+        "precision_pct": 92.9,
+        "purity_pct": 100.0
+      },
+      "12": {
+        "coverage_pct": 97.6,
+        "disagreement_pct": 6.0,
+        "frac_ge_80_pct": 97.5,
+        "ms_per_query": 9.168,
+        "n": 120,
+        "n_cases": 13,
+        "n_conflicting": 0.91,
+        "precision_pct": 93.0,
+        "purity_pct": 100.0
+      },
+      "3": {
+        "coverage_pct": 96.5,
+        "disagreement_pct": 8.0,
+        "frac_ge_80_pct": 93.3,
+        "ms_per_query": 9.317,
+        "n": 120,
+        "n_cases": 4,
+        "n_conflicting": 0.29,
+        "precision_pct": 92.7,
+        "purity_pct": 100.0
+      },
+      "5": {
+        "coverage_pct": 96.5,
+        "disagreement_pct": 6.4,
+        "frac_ge_80_pct": 93.3,
+        "ms_per_query": 9.283,
+        "n": 120,
+        "n_cases": 6,
+        "n_conflicting": 0.44,
+        "precision_pct": 92.6,
+        "purity_pct": 100.0
+      },
+      "7": {
+        "coverage_pct": 96.6,
+        "disagreement_pct": 7.4,
+        "frac_ge_80_pct": 93.3,
+        "ms_per_query": 9.424,
+        "n": 120,
+        "n_cases": 8,
+        "n_conflicting": 0.58,
+        "precision_pct": 92.7,
+        "purity_pct": 100.0
+      }
+    }
+  },
+  "heterogeneity": {
+    "alfworld": {
+      "mean_disagreement_pct": 9.3,
+      "n_families": 6,
+      "per_family": {
+        "look_at_obj_in_light": {
+          "mean_disagreement_pct": 25.4,
+          "n_cases": 308
+        },
+        "pick_and_place_simple": {
+          "mean_disagreement_pct": 1.9,
+          "n_cases": 790
+        },
+        "pick_clean_then_place_in_recep": {
+          "mean_disagreement_pct": 9.1,
+          "n_cases": 650
+        },
+        "pick_cool_then_place_in_recep": {
+          "mean_disagreement_pct": 8.4,
+          "n_cases": 533
+        },
+        "pick_heat_then_place_in_recep": {
+          "mean_disagreement_pct": 7.7,
+          "n_cases": 459
+        },
+        "pick_two_obj_and_place": {
+          "mean_disagreement_pct": 3.2,
+          "n_cases": 813
+        }
+      }
+    },
+    "scienceworld": {
+      "mean_disagreement_pct": 26.4,
+      "n_families": 29,
+      "per_family": {
+        "task-1-boil": {
+          "mean_disagreement_pct": 48.8,
+          "n_cases": 14
+        },
+        "task-1-change-the-state-of-matter-of": {
+          "mean_disagreement_pct": 34.4,
+          "n_cases": 14
+        },
+        "task-1-freeze": {
+          "mean_disagreement_pct": 36.7,
+          "n_cases": 14
+        },
+        "task-1-melt": {
+          "mean_disagreement_pct": 38.0,
+          "n_cases": 14
+        },
+        "task-10-measure-melting-point-(known-substance)": {
+          "mean_disagreement_pct": 34.7,
+          "n_cases": 218
+        },
+        "task-10-use-thermometer": {
+          "mean_disagreement_pct": 16.8,
+          "n_cases": 270
+        },
+        "task-2-power-component": {
+          "mean_disagreement_pct": 14.7,
+          "n_cases": 10
+        },
+        "task-2-power-component-(renewable-vs-nonrenewable-energy)": {
+          "mean_disagreement_pct": 34.8,
+          "n_cases": 10
+        },
+        "task-2a-test-conductivity": {
+          "mean_disagreement_pct": 30.1,
+          "n_cases": 450
+        },
+        "task-2a-test-conductivity-of-unknown-substances": {
+          "mean_disagreement_pct": 21.2,
+          "n_cases": 300
+        },
+        "task-3-find-animal": {
+          "mean_disagreement_pct": 21.3,
+          "n_cases": 150
+        },
+        "task-3-find-living-thing": {
+          "mean_disagreement_pct": 21.3,
+          "n_cases": 150
+        },
+        "task-3-find-non-living-thing": {
+          "mean_disagreement_pct": 23.1,
+          "n_cases": 150
+        },
+        "task-3-find-plant": {
+          "mean_disagreement_pct": 16.7,
+          "n_cases": 150
+        },
+        "task-4-grow-fruit": {
+          "mean_disagreement_pct": 15.3,
+          "n_cases": 62
+        },
+        "task-4-grow-plant": {
+          "mean_disagreement_pct": 8.3,
+          "n_cases": 62
+        },
+        "task-5-chemistry-mix": {
+          "mean_disagreement_pct": 39.1,
+          "n_cases": 16
+        },
+        "task-5-chemistry-mix-paint-(secondary-color)": {
+          "mean_disagreement_pct": 40.5,
+          "n_cases": 18
+        },
+        "task-5-chemistry-mix-paint-(tertiary-color)": {
+          "mean_disagreement_pct": 35.8,
+          "n_cases": 18
+        },
+        "task-6-lifespan-(longest-lived)": {
+          "mean_disagreement_pct": 27.0,
+          "n_cases": 62
+        },
+        "task-6-lifespan-(longest-lived-then-shortest-lived)": {
+          "mean_disagreement_pct": 23.9,
+          "n_cases": 62
+        },
+        "task-6-lifespan-(shortest-lived)": {
+          "mean_disagreement_pct": 27.0,
+          "n_cases": 62
+        },
+        "task-7-identify-life-stages-1": {
+          "mean_disagreement_pct": 21.7,
+          "n_cases": 6
+        },
+        "task-7-identify-life-stages-2": {
+          "mean_disagreement_pct": 25.3,
+          "n_cases": 4
+        },
+        "task-8-inclined-plane-determine-angle": {
+          "mean_disagreement_pct": 31.4,
+          "n_cases": 84
+        },
+        "task-8-inclined-plane-friction-(named-surfaces)": {
+          "mean_disagreement_pct": 33.3,
+          "n_cases": 692
+        },
+        "task-8-inclined-plane-friction-(unnamed-surfaces)": {
+          "mean_disagreement_pct": 37.1,
+          "n_cases": 80
+        },
+        "task-9-mendellian-genetics-(known-plant)": {
+          "mean_disagreement_pct": 3.8,
+          "n_cases": 60
+        },
+        "task-9-mendellian-genetics-(unknown-plant)": {
+          "mean_disagreement_pct": 3.4,
+          "n_cases": 240
+        }
+      }
+    }
+  },
+  "scienceworld": {
+    "corpus_ceiling": {
+      "frac_ge_50_pct": 100.0,
+      "frac_ge_80_pct": 96.0,
+      "frac_no_match_pct": 4.0,
+      "mean_best_coverage_pct": 98.7,
+      "n": 200
+    },
+    "family_lexical": {
+      "1": {
+        "coverage_pct": 68.5,
+        "disagreement_pct": 14.8,
+        "frac_ge_80_pct": 40.0,
+        "ms_per_query": 0.581,
+        "n": 200,
+        "n_cases": 2,
+        "n_conflicting": 1.25,
+        "precision_pct": 37.5,
+        "purity_pct": 100.0
+      },
+      "12": {
+        "coverage_pct": 77.6,
+        "disagreement_pct": 21.8,
+        "frac_ge_80_pct": 60.5,
+        "ms_per_query": 2.145,
+        "n": 200,
+        "n_cases": 13,
+        "n_conflicting": 7.25,
+        "precision_pct": 44.2,
+        "purity_pct": 100.0
+      },
+      "3": {
+        "coverage_pct": 71.4,
+        "disagreement_pct": 17.3,
+        "frac_ge_80_pct": 48.0,
+        "ms_per_query": 0.653,
+        "n": 200,
+        "n_cases": 4,
+        "n_conflicting": 2.4,
+        "precision_pct": 40.0,
+        "purity_pct": 100.0
+      },
+      "5": {
+        "coverage_pct": 75.4,
+        "disagreement_pct": 20.0,
+        "frac_ge_80_pct": 56.5,
+        "ms_per_query": 0.847,
+        "n": 200,
+        "n_cases": 6,
+        "n_conflicting": 3.42,
+        "precision_pct": 43.0,
+        "purity_pct": 100.0
+      },
+      "7": {
+        "coverage_pct": 76.8,
+        "disagreement_pct": 20.7,
+        "frac_ge_80_pct": 59.5,
+        "ms_per_query": 1.17,
+        "n": 200,
+        "n_cases": 8,
+        "n_conflicting": 4.47,
+        "precision_pct": 44.1,
+        "purity_pct": 100.0
+      }
+    },
+    "hybrid": {
+      "1": {
+        "coverage_pct": 85.8,
+        "disagreement_pct": 42.3,
+        "frac_ge_80_pct": 73.0,
+        "ms_per_query": 4.188,
+        "n": 200,
+        "n_cases": 2,
+        "n_conflicting": 0.94,
+        "precision_pct": 53.0,
+        "purity_pct": 87.2
+      },
+      "12": {
+        "coverage_pct": 91.9,
+        "disagreement_pct": 24.1,
+        "frac_ge_80_pct": 82.5,
+        "ms_per_query": 5.892,
+        "n": 200,
+        "n_cases": 13,
+        "n_conflicting": 5.12,
+        "precision_pct": 60.7,
+        "purity_pct": 77.2
+      },
+      "3": {
+        "coverage_pct": 87.3,
+        "disagreement_pct": 28.5,
+        "frac_ge_80_pct": 74.0,
+        "ms_per_query": 4.182,
+        "n": 200,
+        "n_cases": 4,
+        "n_conflicting": 1.81,
+        "precision_pct": 54.8,
+        "purity_pct": 80.9
+      },
+      "5": {
+        "coverage_pct": 90.7,
+        "disagreement_pct": 26.3,
+        "frac_ge_80_pct": 82.0,
+        "ms_per_query": 4.59,
+        "n": 200,
+        "n_cases": 6,
+        "n_conflicting": 2.51,
+        "precision_pct": 58.2,
+        "purity_pct": 78.9
+      },
+      "7": {
+        "coverage_pct": 91.8,
+        "disagreement_pct": 24.7,
+        "frac_ge_80_pct": 82.5,
+        "ms_per_query": 4.819,
+        "n": 200,
+        "n_cases": 8,
+        "n_conflicting": 3.22,
+        "precision_pct": 59.8,
+        "purity_pct": 78.1
+      }
+    },
+    "lexical": {
+      "1": {
+        "coverage_pct": 90.9,
+        "disagreement_pct": 14.1,
+        "frac_ge_80_pct": 80.0,
+        "ms_per_query": 3.82,
+        "n": 200,
+        "n_cases": 2,
+        "n_conflicting": 0.52,
+        "precision_pct": 74.0,
+        "purity_pct": 37.5
+      },
+      "12": {
+        "coverage_pct": 97.4,
+        "disagreement_pct": 25.5,
+        "frac_ge_80_pct": 94.5,
+        "ms_per_query": 6.04,
+        "n": 200,
+        "n_cases": 13,
+        "n_conflicting": 3.48,
+        "precision_pct": 73.2,
+        "purity_pct": 34.5
+      },
+      "3": {
+        "coverage_pct": 93.0,
+        "disagreement_pct": 18.1,
+        "frac_ge_80_pct": 86.0,
+        "ms_per_query": 4.031,
+        "n": 200,
+        "n_cases": 4,
+        "n_conflicting": 1.06,
+        "precision_pct": 73.5,
+        "purity_pct": 37.5
+      },
+      "5": {
+        "coverage_pct": 96.1,
+        "disagreement_pct": 20.3,
+        "frac_ge_80_pct": 92.5,
+        "ms_per_query": 4.127,
+        "n": 200,
+        "n_cases": 6,
+        "n_conflicting": 1.53,
+        "precision_pct": 74.4,
+        "purity_pct": 36.4
+      },
+      "7": {
+        "coverage_pct": 97.1,
+        "disagreement_pct": 21.4,
+        "frac_ge_80_pct": 94.5,
+        "ms_per_query": 4.74,
+        "n": 200,
+        "n_cases": 8,
+        "n_conflicting": 2.13,
+        "precision_pct": 73.4,
+        "purity_pct": 35.1
+      }
+    },
+    "structural": {
+      "1": {
+        "coverage_pct": 76.3,
+        "disagreement_pct": 11.5,
+        "frac_ge_80_pct": 58.5,
+        "ms_per_query": 66.019,
+        "n": 200,
+        "n_cases": 2,
+        "n_conflicting": 0.91,
+        "precision_pct": 54.5,
+        "purity_pct": 100.0
+      },
+      "12": {
+        "coverage_pct": 78.4,
+        "disagreement_pct": 13.7,
+        "frac_ge_80_pct": 59.0,
+        "ms_per_query": 66.498,
+        "n": 200,
+        "n_cases": 13,
+        "n_conflicting": 5.5,
+        "precision_pct": 57.7,
+        "purity_pct": 100.0
+      },
+      "3": {
+        "coverage_pct": 77.7,
+        "disagreement_pct": 13.8,
+        "frac_ge_80_pct": 58.5,
+        "ms_per_query": 64.496,
+        "n": 200,
+        "n_cases": 4,
+        "n_conflicting": 1.75,
+        "precision_pct": 56.2,
+        "purity_pct": 100.0
+      },
+      "5": {
+        "coverage_pct": 78.3,
+        "disagreement_pct": 15.1,
+        "frac_ge_80_pct": 59.0,
+        "ms_per_query": 65.133,
+        "n": 200,
+        "n_cases": 6,
+        "n_conflicting": 2.58,
+        "precision_pct": 57.1,
+        "purity_pct": 100.0
+      },
+      "7": {
+        "coverage_pct": 78.4,
+        "disagreement_pct": 13.8,
+        "frac_ge_80_pct": 59.0,
+        "ms_per_query": 64.843,
+        "n": 200,
+        "n_cases": 8,
+        "n_conflicting": 3.4,
+        "precision_pct": 57.5,
+        "purity_pct": 100.0
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "alfworld": {
+    "mean_reference_length": 5.9,
+    "median_reference_length": 6.0,
+    "repeated_reference_lists": 21,
+    "repeated_test_instructions": 103,
+    "repository_families": 6,
+    "repository_records": 3553,
+    "test_episodes": 120,
+    "test_families": 6
+  },
+  "scienceworld": {
+    "mean_reference_length": 70.6,
+    "median_reference_length": 40.0,
+    "repeated_reference_lists": 11,
+    "repeated_test_instructions": 75,
+    "repository_families": 29,
+    "repository_records": 3442,
+    "test_episodes": 200,
+    "test_families": 23
+  }
+}

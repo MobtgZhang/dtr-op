@@ -1,0 +1,94 @@
+{
+  "lw_rc_with_unchanged_rc": {
+    "alfworld": {
+      "equal": 60,
+      "large_gain": 38,
+      "large_loss": 1,
+      "small_gain": 0,
+      "small_loss": 0
+    },
+    "scienceworld": {
+      "equal": 71,
+      "large_gain": 15,
+      "large_loss": 12,
+      "small_gain": 11,
+      "small_loss": 18
+    }
+  },
+  "prompt": {
+    "alfworld": {
+      "LW-RC": {
+        "equal": 60,
+        "large_gain": 53,
+        "large_loss": 3,
+        "small_gain": 2,
+        "small_loss": 2
+      },
+      "Op-F1": {
+        "equal": 65,
+        "large_gain": 48,
+        "large_loss": 3,
+        "small_gain": 0,
+        "small_loss": 4
+      },
+      "RC": {
+        "equal": 99,
+        "large_gain": 6,
+        "large_loss": 12,
+        "small_gain": 1,
+        "small_loss": 2
+      }
+    },
+    "scienceworld": {
+      "LW-RC": {
+        "equal": 71,
+        "large_gain": 44,
+        "large_loss": 27,
+        "small_gain": 30,
+        "small_loss": 28
+      },
+      "Op-F1": {
+        "equal": 14,
+        "large_gain": 39,
+        "large_loss": 27,
+        "small_gain": 98,
+        "small_loss": 22
+      },
+      "RC": {
+        "equal": 127,
+        "large_gain": 34,
+        "large_loss": 8,
+        "small_gain": 19,
+        "small_loss": 12
+      }
+    }
+  },
+  "retrieval": {
+    "alfworld": {
+      "below_ceiling": 0,
+      "both": 107,
+      "deployed_only": 10,
+      "lexical_only": 0,
+      "missed_in_library": 3
+    },
+    "scienceworld": {
+      "below_ceiling": 8,
+      "both": 143,
+      "deployed_only": 5,
+      "lexical_only": 29,
+      "missed_in_library": 15
+    }
+  },
+  "retrieval_directions": {
+    "alfworld": {
+      "equal": 95,
+      "higher": 23,
+      "lower": 2
+    },
+    "scienceworld": {
+      "equal": 121,
+      "higher": 24,
+      "lower": 55
+    }
+  }
+}
